@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pytest = "*"
+assertpy = "*"
+pytest-mocha = "*"
+pytest-html = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+pytest-schema = "*"
+schema = "*"
+allure-pytest = "*"
+psycopg = "*"
+postgres = "*"
+faker = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
